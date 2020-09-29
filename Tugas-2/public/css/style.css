@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/pattern.jpg');
+}
+
+a {
+    text-decoration: none;
+}
+
+/* a:visited {
+    color: #000;
+} */
+
+header {
+    background: #fff;
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.menu-top ul {
+    display: flex;
+    list-style: none;
+}
+
+nav.menu-top li {
+    padding: 0 10px;
+    float: right;
+}
+
+section {
+    margin: 10px 15%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+#article-list div {
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+}
+
+#article-list div:nth-child(5) {
+    margin-bottom: 0;
+}
+
+footer {
+    color: #fff;
+    padding: 5px;
+    background: #000;
+}
+  
+footer h5 {
+    text-align: center;
+}
