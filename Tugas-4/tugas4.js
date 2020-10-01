@@ -3,10 +3,8 @@ console.log('LOOPING PERTAMA');
 var ke = 2;
 var teks = 'I love coding';
 while (ke <= 20) {
-    if (ke % 2 == 0 ) {
-        console.log(ke + ' - ' + teks);
-    }
-    ke++;
+    console.log(ke + ' - ' + teks);
+    ke += 2;
 }
 
 console.log('\n');
@@ -15,10 +13,8 @@ console.log('LOOPING KEDUA');
 var ke = 20;
 var teks = 'I will become a frontend developer';
 while (ke >= 2) {
-    if (ke % 2 == 0 ) {
-        console.log(ke + ' - ' + teks);
-    }
-    ke--;
+    console.log(ke + ' - ' + teks);
+    ke -= 2;
 }
 
 console.log('\n');
