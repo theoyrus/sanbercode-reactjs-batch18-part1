@@ -55,7 +55,7 @@ class Frog extends Animal {
     constructor(name) {
         super(name)
         this.legs = 2;
-        this.cold_blooded = true; // amfibi berdarah panas
+        this.cold_blooded = true; // amfibi berdarah dingin
     }
 
     jump() {
